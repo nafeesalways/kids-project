@@ -36,6 +36,7 @@
 .navbar-left {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 
@@ -71,6 +72,9 @@
     font-size: larger;
     font-weight: medium;
     cursor: pointer;
+}
+.navbar-right>button:hover{
+    background-color: #01ACFD;
 }
 
 .hamburger {
@@ -138,6 +142,10 @@
     font-size: 1.25rem;
     font-weight: bold;
     cursor: pointer;
+}
+.banner-section-left>button:hover{
+    background-color: #ffff;
+    color: #111;
 }
 
 /* curriculum-section */
